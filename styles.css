@@ -1,1 +1,64 @@
 /* Write your CSS here! */
+body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    60deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 50%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  margin: 8px;
+  display: block;
+}
+
+.main {
+  background-color: lightblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto 400px;
+  height: auto;
+  width: 1200px;
+}
+
+h1 {
+  font-size: 42px;
+  margin: 50px 200px auto 200px;
+}
+
+h3 {
+  font-size: 32px;
+}
+
+.video {
+  display: flex;
+  flex-direction: column;
+}
+
+article {
+  margin: 20px 20px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 20px 20px;
+}
+
+.funParagraph {
+  color: green;
+}
+
+#mainHeading {
+  color: red;
+  font-size: 32px;
+  font-weight: bold;
+  padding: auto;
+  margin: 20px;
+}
+
+footer {
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
